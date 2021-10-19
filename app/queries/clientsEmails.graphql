@@ -1,0 +1,8 @@
+query GetClientsEmails($page_num: Int, $page_size: Int, $updated_before: DateTime, $updated_after: DateTime) {
+  clientsEmails(page: $page_num, pagesize: $page_size, updatedBefore: $updated_before, updatedAfter: $updated_after) {
+    id
+    email
+    isPrimary
+    clients { pimsId }
+  }
+}

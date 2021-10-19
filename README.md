@@ -1,1 +1,5 @@
-# v_evet_api_aws
+Usage -
+
+Run the following command in ~/evet directory - 
+
+`sudo docker-compose up`
